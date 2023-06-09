@@ -1,7 +1,6 @@
-import { ClassType, SelectedPage } from "@/shared/types";
+import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { classes } from "@/data/data";
-import Class from "./Class";
 import HText from "@/shared/HText";
 // import Carousel from "./Carousel";
 import { Carousel } from "@material-tailwind/react";
@@ -51,8 +50,6 @@ const OurClasses = ({ setSelectedPage }: ClassesProps) => {
             ))}
           </Carousel>
         </div>
-
-        {/* <Carousel classes={classes} /> */}
       </motion.div>
     </section>
   );
